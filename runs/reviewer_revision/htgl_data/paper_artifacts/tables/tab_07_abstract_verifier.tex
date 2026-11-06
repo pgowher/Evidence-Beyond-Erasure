@@ -1,0 +1,44 @@
+\begin{table}[t]
+\centering
+\small
+\caption{Signed reference verifier with exact injected-case outcomes.}
+\label{tab:abstract-verifier}
+\begin{tabular}{lrrrrr}
+\toprule
+case & cases\_tested & expected\_accept & accepted & rejected & model\_correct\_classification\_rate \\
+\midrule
+honest\_post\_erasure\_package & 4096 & true & 4096 & 0 & 1 \\
+first\_declaration\_registration & 4096 & true & 4096 & 0 & 1 \\
+exact\_replay\_registration & 4096 & false & 0 & 4096 & 1 \\
+repeat\_inspection\_after\_registration & 4096 & true & 4096 & 0 & 1 \\
+different\_verifier\_local\_registration & 4096 & true & 4096 & 0 & 1 \\
+modified\_retained\_evidence & 4096 & false & 0 & 4096 & 1 \\
+modified\_erased\_commitment & 4096 & false & 0 & 4096 & 1 \\
+invalid\_origin\_signature & 4096 & false & 0 & 4096 & 1 \\
+invalid\_tombstone\_signature & 4096 & false & 0 & 4096 & 1 \\
+modified\_merkle\_path & 4096 & false & 0 & 4096 & 1 \\
+truncated\_merkle\_path & 4096 & false & 0 & 4096 & 1 \\
+swapped\_merkle\_direction & 4096 & false & 0 & 4096 & 1 \\
+substituted\_anchor\_root & 4096 & false & 0 & 4096 & 1 \\
+invalid\_anchor\_signature & 4096 & false & 0 & 4096 & 1 \\
+insufficient\_finality\_quorum & 4096 & false & 0 & 4096 & 1 \\
+duplicate\_finality\_signer & 4096 & false & 0 & 4096 & 1 \\
+invalid\_finality\_signature & 4096 & false & 0 & 4096 & 1 \\
+authenticated\_wrong\_tombstone\_linkage & 4096 & false & 0 & 4096 & 1 \\
+authenticated\_tombstone\_before\_origin & 4096 & false & 0 & 4096 & 1 \\
+authenticated\_tombstone\_before\_request & 4096 & false & 0 & 4096 & 1 \\
+authenticated\_expired\_request & 4096 & false & 0 & 4096 & 1 \\
+authenticated\_scope\_mismatch & 4096 & false & 0 & 4096 & 1 \\
+conflicting\_declaration\_identity & 4096 & false & 0 & 4096 & 1 \\
+coherent\_whole\_witness\_substitution & 4096 & false & 0 & 4096 & 1 \\
+cross\_event\_tombstone\_substitution & 4096 & false & 0 & 4096 & 1 \\
+invalid\_request\_authority\_signature & 4096 & false & 0 & 4096 & 1 \\
+missing\_required\_artifact & 4096 & false & 0 & 4096 & 1 \\
+canonical\_transport\_roundtrip & 4096 & true & 4096 & 0 & 1 \\
+authenticated\_false\_erasure\_declaration & 241 & true & 241 & 0 & 1 \\
+logical\_application\_erasure\_observed & 3855 & true & 3855 & 0 & 1 \\
+replay\_after\_verifier\_restart & 4096 & false & 0 & 4096 & 1 \\
+inspection\_after\_verifier\_restart & 4096 & true & 4096 & 0 & 1 \\
+\bottomrule
+\end{tabular}
+\end{table}

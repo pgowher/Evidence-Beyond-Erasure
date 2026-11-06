@@ -1,0 +1,7 @@
+model,left_component,right_component,theoretical_correlation,empirical_correlation
+independent_poisson_null,Re_Erasure,Rt_Tombstone,0.0,-0.0060299599388769
+independent_poisson_null,Re_Erasure,Rv_AuditVerification,0.0,-0.023187203876878
+independent_poisson_null,Rt_Tombstone,Rv_AuditVerification,0.0,-0.0097579978616752
+causal_workflow,Re_Erasure,Rt_Tombstone,1.0,1.0
+causal_workflow,Re_Erasure,Rv_AuditVerification,1.0,1.0
+causal_workflow,Rt_Tombstone,Rv_AuditVerification,1.0,1.0

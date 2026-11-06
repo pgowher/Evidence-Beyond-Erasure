@@ -1,0 +1,20 @@
+\begin{table}[t]
+\centering
+\small
+\caption{Closed-form and simulated moments at 450 million represented participants.}
+\label{tab:model-validation}
+\begin{tabular}{llrrrrr}
+\toprule
+model & quantity & theoretical\_mean & empirical\_mean & mean\_relative\_error\_pct & theoretical\_fano\_factor & empirical\_fano\_factor \\
+\midrule
+independent\_poisson\_null & Re\_Erasure & 1.233e+04 & 1.233e+04 & -0.009033 & 1 & 1.01 \\
+independent\_poisson\_null & Rt\_Tombstone & 1.233e+04 & 1.233e+04 & 0.009249 & 1 & 1.015 \\
+independent\_poisson\_null & Rv\_AuditVerification & 1.233e+04 & 1.233e+04 & 0.005682 & 1 & 1.016 \\
+independent\_poisson\_null & Daily\_Events & 2.725e+08 & 2.725e+08 & 3.56e-05 & 1 & 0.9918 \\
+causal\_workflow & Re\_Erasure & 1.233e+04 & 1.233e+04 & -0.006347 & 1 & 1.04 \\
+causal\_workflow & Rt\_Tombstone & 1.233e+04 & 1.233e+04 & -0.006347 & 1 & 1.04 \\
+causal\_workflow & Rv\_AuditVerification & 1.233e+04 & 1.233e+04 & -0.006347 & 1 & 1.04 \\
+causal\_workflow & Daily\_Events & 2.725e+08 & 2.725e+08 & -6.372e-05 & 1 & 1.008 \\
+\bottomrule
+\end{tabular}
+\end{table}

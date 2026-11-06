@@ -1,0 +1,20 @@
+\begin{table}[t]
+\centering
+\small
+\caption{Warm-start discrete-time queue envelope for selected service rates.}
+\label{tab:queue-envelope}
+\begin{tabular}{llrrrrr}
+\toprule
+scenario & service\_plane & capacity\_tps & mean\_utilization\_pct & probability\_any\_backlog & probability\_ending\_backlog & p99\_max\_queue\_delay\_seconds \\
+\midrule
+baseline & batched\_consensus\_reference & 10 & 31.58 & 0.302 & 0 & 263.7 \\
+baseline & batched\_consensus\_reference & 3500 & 0.09022 & 0 & 0 & 0 \\
+baseline & unbatched\_consensus\_counterfactual & 3500 & 89.98 & 1 & 0.548 & 1.186e+04 \\
+baseline & unbatched\_consensus\_counterfactual & 8000 & 39.37 & 0.587 & 0.002 & 837.3 \\
+combined\_stress & batched\_consensus\_reference & 10 & 78.35 & 0.996 & 0.055 & 6580 \\
+combined\_stress & batched\_consensus\_reference & 3500 & 0.2239 & 0 & 0 & 0 \\
+combined\_stress & unbatched\_consensus\_counterfactual & 3500 & 223.6 & 1 & 1 & 2.422e+05 \\
+combined\_stress & unbatched\_consensus\_counterfactual & 8000 & 97.84 & 1 & 1 & 1.86e+04 \\
+\bottomrule
+\end{tabular}
+\end{table}

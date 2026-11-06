@@ -1,0 +1,9 @@
+scenario,witness_policy,membership_witness_gb,total_gb
+baseline,independent_encoded_paths,106510.931568,182740.254588
+baseline,shared_tree_nodes,19130.4758736,95359.7988936
+baseline,leaves_on_demand,9558.203831999996,85787.526852
+baseline,compressed_path_bundle,21193.9808643,97423.3038843
+combined_stress,independent_encoded_paths,264946.71676320006,454514.8519512001
+combined_stress,shared_tree_nodes,47576.12988240001,237144.2650704
+combined_stress,leaves_on_demand,23770.483336800004,213338.6185248
+combined_stress,compressed_path_bundle,52708.00498115592,242276.14016915596

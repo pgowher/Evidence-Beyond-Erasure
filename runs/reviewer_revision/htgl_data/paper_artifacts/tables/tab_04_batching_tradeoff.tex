@@ -1,0 +1,19 @@
+\begin{table}[t]
+\centering
+\small
+\caption{One-minute temporal batching trade-off at 450 million participants.}
+\label{tab:batching}
+\begin{tabular}{rrrrr}
+\toprule
+batch\_size & mean\_anchor\_tps & p99\_of\_daily\_max\_anchor\_tps & mean\_batch\_fill\_ratio & mean\_consensus\_reduction\_factor \\
+\midrule
+1 & 3149 & 1.525e+04 & 1 & 1 \\
+10 & 314.9 & 1525 & 1 & 10 \\
+100 & 31.5 & 152.5 & 0.9997 & 99.97 \\
+500 & 6.307 & 30.5 & 0.9987 & 499.3 \\
+1000 & 3.158 & 15.25 & 0.9974 & 997.4 \\
+5000 & 0.6379 & 3.05 & 0.9874 & 4937 \\
+10000 & 0.3229 & 1.533 & 0.9752 & 9752 \\
+\bottomrule
+\end{tabular}
+\end{table}

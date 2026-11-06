@@ -1,0 +1,26 @@
+\begin{table}[t]
+\centering
+\small
+\caption{Deterministic and temporal anchor estimates for the 60-second window.}
+\label{tab:estimators}
+\begin{tabular}{lrrrrr}
+\toprule
+scenario & batch\_size & deterministic\_anchor\_tps & mean\_anchor\_tps & replications & p99\_of\_daily\_max\_anchor\_tps \\
+\midrule
+baseline & 1 & 3154 & 3149 & 1000 & 1.525e+04 \\
+baseline & 10 & 315.4 & 314.9 & 1000 & 1525 \\
+baseline & 100 & 31.55 & 31.5 & 1000 & 152.5 \\
+baseline & 500 & 6.317 & 6.307 & 1000 & 30.5 \\
+baseline & 1000 & 3.167 & 3.158 & 1000 & 15.25 \\
+baseline & 5000 & 0.6333 & 0.6379 & 1000 & 3.05 \\
+baseline & 10000 & 0.3167 & 0.3229 & 1000 & 1.533 \\
+combined\_stress & 1 & 7844 & 7827 & 1000 & 3.792e+04 \\
+combined\_stress & 10 & 784.4 & 782.7 & 1000 & 3792 \\
+combined\_stress & 100 & 78.45 & 78.28 & 1000 & 379.2 \\
+combined\_stress & 500 & 15.7 & 15.66 & 1000 & 75.85 \\
+combined\_stress & 1000 & 7.85 & 7.835 & 1000 & 37.93 \\
+combined\_stress & 5000 & 1.583 & 1.574 & 1000 & 7.6 \\
+combined\_stress & 10000 & 0.8 & 0.7906 & 1000 & 3.8 \\
+\bottomrule
+\end{tabular}
+\end{table}

@@ -1,0 +1,35 @@
+parameter,value
+SIMUP_CODE_VERSION,simUp-v8-review-revision
+run_profile,publication
+random_seed,20260717
+rng_substream_scheme,"SHA-256(global-seed|experiment-labels), first 64 bits"
+daily_monte_carlo_runs,10000
+temporal_replications,1000
+peak_bootstrap_replications,1000
+uncertainty_runs_per_population,5000
+formal_model_events,4096
+represented_populations,"[50000000, 150000000, 450000000]"
+institutional_actors,500
+meter_readings_per_consumer_day,96
+capacity_envelopes_tps,"[1000, 2000, 3500, 5000, 8000, 10000, 15000]"
+anchor_capacity_envelopes_tps,"[10, 25, 50, 100, 500, 1000, 3500]"
+batch_sizes,"[1, 10, 100, 500, 1000, 5000, 10000]"
+batch_windows_seconds,"[10, 30, 60, 300, 900]"
+reference_reduced_evidence_bytes,296
+consent_events_per_consumer_year,2.0
+authorization_events_per_consumer_day,0.5
+der_coordination_events_per_active_der_day,1.0
+integrity_events_per_institution_day,24.0
+erasure_requests_per_consumer_year,0.01
+tombstones_per_erasure,1.0
+audits_per_erasure,1.0
+workflow_tombstone_mean_delay_minutes,5.0
+workflow_verification_mean_delay_minutes,60.0
+workflow_tombstone_sla_minutes,60
+workflow_verification_sla_minutes,1440
+workflow_maximum_scheduled_delay_minutes,2880
+workflow_temporal_warmup_days,1
+workflow_temporal_measurement_days,1
+workflow_temporal_cooldown_days,1
+workflow_reference_batch_size,1000
+workflow_reference_batch_window_seconds,60

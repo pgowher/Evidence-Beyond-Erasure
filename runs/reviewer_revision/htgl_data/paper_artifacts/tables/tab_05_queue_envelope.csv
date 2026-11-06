@@ -1,0 +1,9 @@
+scenario,service_plane,capacity_tps,mean_utilization_pct,probability_any_backlog,probability_ending_backlog,p99_max_queue_delay_seconds
+baseline,batched_consensus_reference,10,31.576392708333334,0.302,0.0,263.737
+baseline,batched_consensus_reference,3500,0.0902182648809523,0.0,0.0,0.0
+baseline,unbatched_consensus_counterfactual,3500,89.98003086772486,1.0,0.548,11860.466228571426
+baseline,unbatched_consensus_counterfactual,8000,39.36626350462963,0.587,0.002,837.29038125
+combined_stress,batched_consensus_reference,10,78.3531744212963,0.996,0.055,6580.333999999998
+combined_stress,batched_consensus_reference,3500,0.2238662126322751,0.0,0.0,0.0
+combined_stress,unbatched_consensus_counterfactual,3500,223.6283076650132,1.0,1.0,242173.70403142856
+combined_stress,unbatched_consensus_counterfactual,8000,97.8373846034433,1.0,1.0,18601.91084625

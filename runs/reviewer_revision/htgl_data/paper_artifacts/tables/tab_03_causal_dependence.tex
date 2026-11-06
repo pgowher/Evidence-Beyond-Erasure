@@ -1,0 +1,18 @@
+\begin{table}[t]
+\centering
+\small
+\caption{Dependence introduced by explicit erasure descendants versus the null model.}
+\label{tab:causal-dependence}
+\begin{tabular}{lllrr}
+\toprule
+model & left\_component & right\_component & theoretical\_correlation & empirical\_correlation \\
+\midrule
+independent\_poisson\_null & Re\_Erasure & Rt\_Tombstone & 0 & -0.00603 \\
+independent\_poisson\_null & Re\_Erasure & Rv\_AuditVerification & 0 & -0.02319 \\
+independent\_poisson\_null & Rt\_Tombstone & Rv\_AuditVerification & 0 & -0.009758 \\
+causal\_workflow & Re\_Erasure & Rt\_Tombstone & 1 & 1 \\
+causal\_workflow & Re\_Erasure & Rv\_AuditVerification & 1 & 1 \\
+causal\_workflow & Rt\_Tombstone & Rv\_AuditVerification & 1 & 1 \\
+\bottomrule
+\end{tabular}
+\end{table}

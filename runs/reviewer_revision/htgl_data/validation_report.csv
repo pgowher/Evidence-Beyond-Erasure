@@ -1,0 +1,29 @@
+check,status,observed,criterion,blocking
+independent_poisson_null_mean_matches_closed_form,PASS,0.0626568999999992,maximum absolute mean relative error < 0.25%,True
+independent_poisson_null_variance_matches_closed_form,PASS,3.318439643183203,maximum absolute variance relative error < 10%,True
+causal_workflow_mean_matches_closed_form,PASS,0.063939700000008,maximum absolute mean relative error < 0.25%,True
+causal_workflow_variance_matches_closed_form,PASS,4.003812168696868,maximum absolute variance relative error < 10%,True
+poisson_null_has_negligible_cross_component_correlation,PASS,0.0252508263188422,maximum |r| < 0.05,True
+causal_correlations_match_closed_form,PASS,0.0,maximum |empirical - theoretical r| < 0.05,True
+daily_workflow_invariants,PASS,0,zero violations,True
+temporal_workflow_invariants,PASS,0,zero violations,True
+formal_honest_completeness,PASS,28672,all honest packages accepted,True
+formal_fault_detection,PASS,0,zero injected invalid packages accepted,True
+exact_protocol_outcomes_and_reasons,PASS,126976,every case returns its expected reason,True
+protocol_conformance,PASS,37,"all independent vectors, partial trees, quorum and concurrent admission checks pass",True
+trace_ingestion_conformance,PASS,2,valid trace replays; missing parent is rejected,True
+reviewer_fault_coverage,PASS,8,all requested distinct fault classes executed,True
+false_declaration_truth_boundary,PASS,241,retained application payload is confirmed by the separate store; valid signed witness remains acceptable,True
+complete_analytical_batch_grid,PASS,420,all requested population/scenario/capacity/window combinations exactly once,True
+temporal_configuration_and_intervals,PASS,[1000],all groups match selected profile and ordered peak confidence intervals,True
+storage_components_conserve_bytes,PASS,108,all path-inclusive storage totals equal sum of components,True
+independent_equation_16_reference,PASS,167.9233008,independently calculated paper-reference storage includes 320 bytes per logical event,True
+retention_model_matches_codec,PASS,30,exact representations match measured serialized lengths and all sampled proofs verify,True
+reviewer_comments_mapped,PASS,17,one evidence row per mapped reviewer concern,True
+mmpp_stationary_distribution,PASS,0.9999999999999998,stationary probabilities sum to one,True
+batching_never_increases_transaction_count,PASS,0,zero rows with anchors > logical events,True
+reference_batching_drains_at_external_reference,PASS,0.0,zero observed end-of-day backlog probability,True
+uncertainty_quantiles_are_ordered,PASS,True,p50 <= p95 <= p99 for every population,True
+labelled_rng_substreams_are_reproducible,PASS,True,identical labels reproduce identical samples,True
+key_outputs_are_finite,PASS,0,zero NaN or infinite values in key result tables,True
+publication_figures_complete,PASS,8 figures; 0 missing files,all eight figures have PNG and PDF files,True

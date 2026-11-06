@@ -1,0 +1,9 @@
+parameter,lower,upper,distribution,classification
+consent_events_per_consumer_year,0.5,4.0,uniform,research uncertainty range
+authorization_events_per_consumer_day,0.1,1.0,uniform,research uncertainty range
+der_adoption,0.05,0.4,uniform,scenario uncertainty range
+der_coordination_events_per_active_der_day,0.5,4.0,uniform,research uncertainty range
+integrity_events_per_institution_day,1.0,24.0,uniform,research uncertainty range
+institutional_actors,200.0,2000.0,uniform,research uncertainty range
+erasure_requests_per_consumer_year,0.001,0.05,log_uniform,research uncertainty range
+audits_per_erasure,0.1,2.0,uniform,research uncertainty range

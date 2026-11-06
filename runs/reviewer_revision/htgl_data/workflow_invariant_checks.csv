@@ -1,0 +1,25 @@
+population,population_millions,scenario,model,runs,tombstone_parent_bound_violations,verification_parent_bound_violations,orphan_children_generated,causal_order_violations,interpretation
+50000000,50.0,baseline,independent_poisson_null,10000,,,,,null comparator intentionally has no parent linkage
+50000000,50.0,baseline,causal_workflow,10000,0.0,0.0,0.0,0.0,linked descendants generated from sampled erasure parents
+50000000,50.0,high_access,independent_poisson_null,10000,,,,,null comparator intentionally has no parent linkage
+50000000,50.0,high_access,causal_workflow,10000,0.0,0.0,0.0,0.0,linked descendants generated from sampled erasure parents
+50000000,50.0,high_der,independent_poisson_null,10000,,,,,null comparator intentionally has no parent linkage
+50000000,50.0,high_der,causal_workflow,10000,0.0,0.0,0.0,0.0,linked descendants generated from sampled erasure parents
+50000000,50.0,combined_stress,independent_poisson_null,10000,,,,,null comparator intentionally has no parent linkage
+50000000,50.0,combined_stress,causal_workflow,10000,0.0,0.0,0.0,0.0,linked descendants generated from sampled erasure parents
+150000000,150.0,baseline,independent_poisson_null,10000,,,,,null comparator intentionally has no parent linkage
+150000000,150.0,baseline,causal_workflow,10000,0.0,0.0,0.0,0.0,linked descendants generated from sampled erasure parents
+150000000,150.0,high_access,independent_poisson_null,10000,,,,,null comparator intentionally has no parent linkage
+150000000,150.0,high_access,causal_workflow,10000,0.0,0.0,0.0,0.0,linked descendants generated from sampled erasure parents
+150000000,150.0,high_der,independent_poisson_null,10000,,,,,null comparator intentionally has no parent linkage
+150000000,150.0,high_der,causal_workflow,10000,0.0,0.0,0.0,0.0,linked descendants generated from sampled erasure parents
+150000000,150.0,combined_stress,independent_poisson_null,10000,,,,,null comparator intentionally has no parent linkage
+150000000,150.0,combined_stress,causal_workflow,10000,0.0,0.0,0.0,0.0,linked descendants generated from sampled erasure parents
+450000000,450.0,baseline,independent_poisson_null,10000,,,,,null comparator intentionally has no parent linkage
+450000000,450.0,baseline,causal_workflow,10000,0.0,0.0,0.0,0.0,linked descendants generated from sampled erasure parents
+450000000,450.0,high_access,independent_poisson_null,10000,,,,,null comparator intentionally has no parent linkage
+450000000,450.0,high_access,causal_workflow,10000,0.0,0.0,0.0,0.0,linked descendants generated from sampled erasure parents
+450000000,450.0,high_der,independent_poisson_null,10000,,,,,null comparator intentionally has no parent linkage
+450000000,450.0,high_der,causal_workflow,10000,0.0,0.0,0.0,0.0,linked descendants generated from sampled erasure parents
+450000000,450.0,combined_stress,independent_poisson_null,10000,,,,,null comparator intentionally has no parent linkage
+450000000,450.0,combined_stress,causal_workflow,10000,0.0,0.0,0.0,0.0,linked descendants generated from sampled erasure parents

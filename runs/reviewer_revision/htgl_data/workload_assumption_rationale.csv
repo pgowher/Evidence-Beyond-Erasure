@@ -1,0 +1,12 @@
+parameter,baseline,scenario_interpretation,range_rationale,evidence_class
+consent_events_per_consumer_year,2.0,"Renewal and change events, not individual meter reads",0.5–4/year covers infrequent to quarterly evidence creation,declared design hypothesis
+authorization_events_per_consumer_day,0.5,One retained authorization event per two participant-days on average,0.1–1/day tests sparsely logged to daily authorization,declared design hypothesis
+der_adoption,0.1,Ten percent of the represented population is active in this reference scenario,0.05–0.40 tests low to substantial adoption; 0.25 is the high-DER stress setting,declared design hypothesis
+der_coordination_events_per_active_der_day,1.0,One governance coordination record per active participant-day,0.5–4/day tests variation in the granularity of recorded decisions,declared design hypothesis
+integrity_events_per_institution_day,24.0,Hourly institutional check scenario,1–24/day spans daily to hourly checks,declared design hypothesis
+institutional_actors,500.0,Fixed institutional population separates organization-level from participant-level demand,"200–2,000 tests different federation sizes",declared design hypothesis
+erasure_requests_per_consumer_year,0.01,Rare request scenario of one request per hundred participant-years,0.001–0.05/year spans orders of magnitude on a log scale,declared design hypothesis
+audits_per_erasure,1.0,One optional verification receipt per request in the baseline,0.1–2 models fractional participation and multiple receipts,declared design hypothesis
+tombstones_per_erasure,1.0,Reference workload charges one declaration per request,Separate protocol experiment tests multiple declared custodians; workload sensitivity preserves the reference multiplicity,declared design hypothesis
+tombstone_mean_delay_minutes,5.0,Short logical declaration delay in the synthetic workflow,Scenario input; application-store and consensus latency are measured separately only in the local reference experiment,declared design hypothesis
+verification_mean_delay_minutes,60.0,Longer optional verification-receipt delay,Scenario input; no national service-level trace supplied,declared design hypothesis

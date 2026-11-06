@@ -1,0 +1,5 @@
+state,self_transition_probability,mean_geometric_dwell_minutes,relative_intensity,interpretation
+normal,0.995,199.99999999999983,0.75,declared persistent minute-level stress regime
+activity_peak,0.948,19.230769230769212,1.25,declared persistent minute-level stress regime
+coordinated_response,0.928,13.888888888888898,2.0,declared persistent minute-level stress regime
+incident,0.8,5.000000000000001,3.0,declared persistent minute-level stress regime

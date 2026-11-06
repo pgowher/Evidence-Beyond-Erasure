@@ -1,0 +1,13 @@
+{
+  "source_description": "deterministic synthetic ingestion fixture",
+  "classification": "synthetic test fixture",
+  "sha256": "b35c4639af8509da1ee2c5b22f8c7ba174298622333a17b8e81233f176c4a793",
+  "exposure_start_utc": "2026-01-01T00:00:00+00:00",
+  "exposure_end_utc": "2026-01-01T04:00:00+00:00",
+  "participants": 100,
+  "institutions": 5,
+  "rows": 469,
+  "orphan_or_early_child_rows": 0,
+  "retained_input_identifiers": false,
+  "calibration": "observed exposure rates and aggregate training-block comparator; default synthetic scenarios remain distinct"
+}

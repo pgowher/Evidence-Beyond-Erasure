@@ -1,0 +1,2 @@
+training_minutes,holdout_minutes,moving_block_minutes,bootstrap_replications,holdout_mean_events_per_second,holdout_max_events_per_second,training_bootstrap_mean_p05,training_bootstrap_mean_p95,training_bootstrap_peak_p05,training_bootstrap_peak_p95,estimand
+192,48,48,1000,0.023611111111111114,0.08333333333333333,0.024305555555555556,0.036458333333333336,0.06666666666666667,0.21666666666666667,later trace window compared with moving blocks of earlier aggregate counts; same observed exposure

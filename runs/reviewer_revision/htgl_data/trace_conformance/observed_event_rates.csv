@@ -1,0 +1,8 @@
+event_class,observed_count,exposure_days,exposure_entities,events_per_day,events_per_entity_day,mean_parent_delay_s,p95_parent_delay_s,source_classification
+Rc_Consent,0,0.16666666666666666,100,0.0,0.0,,,synthetic test fixture
+Ra_Authorization,445,0.16666666666666666,100,2670.0,26.700000000000003,,,synthetic test fixture
+Rm_DER,0,0.16666666666666666,100,0.0,0.0,,,synthetic test fixture
+Ri_Integrity,0,0.16666666666666666,5,0.0,0.0,,,synthetic test fixture
+Re_Erasure,8,0.16666666666666666,100,48.0,0.4800000000000001,,,synthetic test fixture
+Rt_Tombstone,8,0.16666666666666666,100,48.0,0.4800000000000001,15.0,15.0,synthetic test fixture
+Rv_AuditVerification,8,0.16666666666666666,100,48.0,0.4800000000000001,45.0,45.0,synthetic test fixture

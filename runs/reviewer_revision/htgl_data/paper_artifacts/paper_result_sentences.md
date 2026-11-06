@@ -1,0 +1,7 @@
+- The 50M baseline represents 30,290,082 logical HTGL events/day (350.58 event TPS).
+- At 450M, baseline p99 logical-event demand is 3154.55 TPS; combined-stress p99 demand is 7844.74 TPS.
+- With 1,000-item/60-second batches, the 450M baseline deterministic periodic-window anchor rate is 3.166667 anchor TPS. The temporal mean is 3.157639 anchor TPS, with a 15.250 TPS p99 daily peak over 1,000 replications.
+- Explicit workflow generation produced an erasure–tombstone correlation of 1.000, with zero orphan descendants or causal-order violations.
+- Under the declared uncertainty distributions, 450M logical demand has mean 5551.16, median 5407.70, central 90% empirical interval [2114.09, 9700.00], central 95% interval [1764.97, 10462.11], and p99 11274.00 events/s.
+- The signed reference verifier exercises the specified structural predicates, independently supplied targets, authorization and declared scope, and persistent admission. The case table reports exact counts and reasons.
+- The observed authenticated false-declaration cases expose the boundary between evidence and application-store truth.

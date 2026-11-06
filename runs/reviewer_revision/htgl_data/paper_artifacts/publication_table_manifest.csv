@@ -1,0 +1,10 @@
+table_id,caption,source_rows,csv_file,latex_file
+tab_01_scale_envelope,Population and scenario workload envelope under the causal model.,12,paper_artifacts/tables/tab_01_scale_envelope.csv,paper_artifacts/tables/tab_01_scale_envelope.tex
+tab_02_model_moment_validation,Closed-form and simulated moments at 450 million represented participants.,8,paper_artifacts/tables/tab_02_model_moment_validation.csv,paper_artifacts/tables/tab_02_model_moment_validation.tex
+tab_03_causal_dependence,Dependence introduced by explicit erasure descendants versus the null model.,6,paper_artifacts/tables/tab_03_causal_dependence.csv,paper_artifacts/tables/tab_03_causal_dependence.tex
+tab_04_batching_tradeoff,One-minute temporal batching trade-off at 450 million participants.,7,paper_artifacts/tables/tab_04_batching_tradeoff.csv,paper_artifacts/tables/tab_04_batching_tradeoff.tex
+tab_05_queue_envelope,Warm-start discrete-time queue envelope for selected service rates.,8,paper_artifacts/tables/tab_05_queue_envelope.csv,paper_artifacts/tables/tab_05_queue_envelope.tex
+tab_06_uncertainty_envelope,Latin-hypercube uncertainty envelope over declared research ranges.,3,paper_artifacts/tables/tab_06_uncertainty_envelope.csv,paper_artifacts/tables/tab_06_uncertainty_envelope.tex
+tab_07_abstract_verifier,Signed reference verifier with exact injected-case outcomes.,32,paper_artifacts/tables/tab_07_abstract_verifier.csv,paper_artifacts/tables/tab_07_abstract_verifier.tex
+tab_08_estimator_reconciliation,Deterministic and temporal anchor estimates for the 60-second window.,14,paper_artifacts/tables/tab_08_estimator_reconciliation.csv,paper_artifacts/tables/tab_08_estimator_reconciliation.tex
+tab_09_compact_storage,"Annual retained evidence at three copies under the canonical protocol profile, in decimal GB.",8,paper_artifacts/tables/tab_09_compact_storage.csv,paper_artifacts/tables/tab_09_compact_storage.tex

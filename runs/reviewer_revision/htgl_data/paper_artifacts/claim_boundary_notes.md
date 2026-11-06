@@ -1,0 +1,1 @@
+The model estimates workload, retained evidence, batching, capacity, and abstract verification behavior. It does not benchmark an implemented ledger, prove physical deletion of every copy, establish legal compliance, measure cryptographic runtime, or provide a production Proof-after-Erasure implementation.

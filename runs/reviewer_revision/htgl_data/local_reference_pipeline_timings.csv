@@ -1,0 +1,5 @@
+stage,packages,wall_clock_ms,scope
+record_commitment_and_origin_signature,4096,5475.411414,"local executable application store, signer and quorum log"
+origin_batch_and_quorum_anchoring,4096,112.265235,"local executable application store, signer and quorum log"
+request_signature_batch_and_quorum_anchoring,4096,782.973411,"local executable application store, signer and quorum log"
+logical_store_removal_and_tombstones,4096,4631.320148,"local executable application store, signer and quorum log"

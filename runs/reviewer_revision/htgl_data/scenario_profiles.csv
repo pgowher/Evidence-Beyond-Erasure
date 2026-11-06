@@ -1,0 +1,5 @@
+name,label,authorization_multiplier,coordination_multiplier,der_adoption,erasure_multiplier,audit_multiplier,description
+baseline,Baseline,1.0,1.0,0.1,1.0,1.0,Reference research assumptions for the conceptual HTGL workload.
+high_access,High access,2.0,1.0,0.1,1.0,1.0,Authorization frequency doubled; other baseline rates retained.
+high_der,High DER,1.0,2.0,0.25,1.0,1.0,Twenty-five percent DER adoption and doubled DER coordination.
+combined_stress,Combined stress,2.0,2.0,0.25,5.0,2.0,High access/DER plus fivefold erasure and twofold audit intensity.

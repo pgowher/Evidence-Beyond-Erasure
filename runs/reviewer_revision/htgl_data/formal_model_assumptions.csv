@@ -1,0 +1,6 @@
+assumption,role,evaluated_by
+SHA-256 binding and computational hiding,256-bit independent CSPRNG opening remains secret and unavailable; hash collision/preimage assumptions are distinct,actual hashing and independent byte vectors; no cryptanalytic proof
+Ed25519 and trusted role registry,source authentication under uncompromised role-bound keys,"real signing and verification, revocation and fault tests"
+local quorum anchor protocol,"n=4,f=1,q=3; persistent fixed-view validator locks and certificates",executed in-process protocol and fault cases; no distributed benchmark
+retained metadata remains linkable,opaque 128-bit references are not an anonymity guarantee,field catalogue and bounded identifier-linkage experiment
+physical deletion and custodian truthfulness,outside structural verifier observation,explicit false-declaration fixture with separate application-store truth

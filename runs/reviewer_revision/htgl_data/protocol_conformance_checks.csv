@@ -1,0 +1,38 @@
+check,passed,observed
+vectorized_queue_matches_lindley_recursion,True,355.0
+geometric_dwell_occupancy_matches_stationary_model,True,"[0.909805, 0.07856, 0.01051, 0.001125]"
+independent_metadata_binary_vector,True,127
+metadata_decode_roundtrip,True,127
+reject_trailing_bytes,True,malformed byte record
+reject_truncated_bytes,True,malformed byte record
+reject_unsupported_version,True,malformed byte record
+reject_boolean_as_integer,True,strict unsigned integer encoding
+merkle_all_leaves_1,True,1/1
+merkle_all_leaves_2,True,2/2
+merkle_all_leaves_3,True,3/3
+merkle_all_leaves_5,True,5/5
+merkle_all_leaves_17,True,17/17
+merkle_all_leaves_999,True,999/999
+merkle_all_leaves_1000,True,1000/1000
+merkle_all_leaves_1001,True,1001/1001
+merkle_all_leaves_5000,True,5000/5000
+merkle_all_leaves_10000,True,10000/10000
+independent_origin_leaf_binding,True,AUDIT_ORIGIN_LEAF_MISMATCH
+independent_request_leaf_binding,True,AUDIT_REQUEST_LEAF_MISMATCH
+declared_roster_complete,True,"{'accepted': True, 'reason': 'DECLARED_CUSTODIAN_COVERAGE', 'complete': True, 'expected_custodians': 2, 'covered_custodians': 2, 'missing_custodians': [], 'physical_deletion_established': False, 'undisclosed_custodians_covered': False}"
+declared_roster_missing_custodian,True,"{'accepted': True, 'reason': 'DECLARED_CUSTODIAN_COVERAGE', 'complete': False, 'expected_custodians': 2, 'covered_custodians': 1, 'missing_custodians': ['8399e221388d0c92f32034b81450797f'], 'physical_deletion_established': False, 'undisclosed_custodians_covered': False}"
+duplicate_custodian_cannot_complete_case,True,"{'accepted': False, 'reason': 'DUPLICATE_CUSTODIAN_RESPONSE', 'complete': False}"
+trust_revocation_not_bypassed_by_crypto_cache,True,INVALID_ORIGIN_SIGNATURE
+signed_inconsistent_leaf_rejected,True,STRUCTURED_COMMITMENT_MISMATCH
+anchored_unauthorized_request_rejected,True,INVALID_REQUEST_AUTHORIZATION
+quorum_tolerates_one_unavailable,True,3
+no_finality_without_quorum,True,1
+honest_prepare_locks_block_conflicting_quorum,True,fixed-view persisted locks
+anchor_log_append_only_trigger,True,UPDATE/DELETE denied through reference interface
+local_anchor_history_verified,True,1
+anchor_idempotent_retry,True,1
+conflicting_anchor_batch_identity_rejected,True,existing batch ID cannot name another root
+anchor_history_survives_restart,True,1
+concurrent_registration_exactly_once,True,"[(True, 'REGISTERED_NEW_DECLARATION'), (False, 'DUPLICATE_DECLARATION')]"
+independent_commitment_vector,True,94a3e0ca0bafce2b49644aeabed69660d5e57558e41b4a40fc4e70964947b0b2
+independent_leaf_vector,True,d8ddfed420fe0d448f953a5af31ceac035152efaa59732e9bd19880e3da7d40a

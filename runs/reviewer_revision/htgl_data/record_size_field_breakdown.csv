@@ -1,0 +1,94 @@
+profile,record,field,bytes,basis,measured_serialization
+paper_reference_envelope,generic,event_id,16,standards-derived widths or explicit legacy design allowance,False
+paper_reference_envelope,generic,event_type,2,standards-derived widths or explicit legacy design allowance,False
+paper_reference_envelope,generic,actor_references,32,standards-derived widths or explicit legacy design allowance,False
+paper_reference_envelope,generic,resource_reference,16,standards-derived widths or explicit legacy design allowance,False
+paper_reference_envelope,generic,policy_reference,16,standards-derived widths or explicit legacy design allowance,False
+paper_reference_envelope,generic,timestamp,8,standards-derived widths or explicit legacy design allowance,False
+paper_reference_envelope,generic,sequence,8,standards-derived widths or explicit legacy design allowance,False
+paper_reference_envelope,generic,structured_commitment,32,standards-derived widths or explicit legacy design allowance,False
+paper_reference_envelope,generic,origin_signature,64,standards-derived widths or explicit legacy design allowance,False
+paper_reference_envelope,generic,status_flags,2,standards-derived widths or explicit legacy design allowance,False
+paper_reference_envelope,generic,canonical_encoding_overhead,100,standards-derived widths or explicit legacy design allowance,False
+paper_reference_envelope,tombstone,event_id,16,explicit legacy field envelope,False
+paper_reference_envelope,tombstone,leaf_reference,32,explicit legacy field envelope,False
+paper_reference_envelope,tombstone,scope,4,explicit legacy field envelope,False
+paper_reference_envelope,tombstone,timestamp,8,explicit legacy field envelope,False
+paper_reference_envelope,tombstone,custodian,16,explicit legacy field envelope,False
+paper_reference_envelope,tombstone,signature,64,explicit legacy field envelope,False
+paper_reference_envelope,tombstone,encoding_allowance,64,explicit legacy field envelope,False
+paper_reference_envelope,receipt,event_id,16,explicit legacy field envelope,False
+paper_reference_envelope,receipt,type,2,explicit legacy field envelope,False
+paper_reference_envelope,receipt,timestamp,8,explicit legacy field envelope,False
+paper_reference_envelope,receipt,auditor,16,explicit legacy field envelope,False
+paper_reference_envelope,receipt,signature,64,explicit legacy field envelope,False
+paper_reference_envelope,receipt,encoding_allowance,64,explicit legacy field envelope,False
+paper_reference_envelope,anchor,batch_id,16,explicit legacy field envelope,False
+paper_reference_envelope,anchor,root,32,explicit legacy field envelope,False
+paper_reference_envelope,anchor,timestamp,8,explicit legacy field envelope,False
+paper_reference_envelope,anchor,sequence,8,explicit legacy field envelope,False
+paper_reference_envelope,anchor,signer,16,explicit legacy field envelope,False
+paper_reference_envelope,anchor,signature,64,explicit legacy field envelope,False
+paper_reference_envelope,anchor,encoding_allowance,64,explicit legacy field envelope,False
+canonical_protocol_v2,generic,frame,11,actual versioned binary codec; hashes/signatures retained as raw bytes,True
+canonical_protocol_v2,generic,event_id,16,actual versioned binary codec; hashes/signatures retained as raw bytes,True
+canonical_protocol_v2,generic,tenant_id,16,actual versioned binary codec; hashes/signatures retained as raw bytes,True
+canonical_protocol_v2,generic,event_type,2,actual versioned binary codec; hashes/signatures retained as raw bytes,True
+canonical_protocol_v2,generic,actor_count,2,actual versioned binary codec; hashes/signatures retained as raw bytes,True
+canonical_protocol_v2,generic,actors_two,32,actual versioned binary codec; hashes/signatures retained as raw bytes,True
+canonical_protocol_v2,generic,resource_id,16,actual versioned binary codec; hashes/signatures retained as raw bytes,True
+canonical_protocol_v2,generic,policy_id,16,actual versioned binary codec; hashes/signatures retained as raw bytes,True
+canonical_protocol_v2,generic,timestamp_ms,8,actual versioned binary codec; hashes/signatures retained as raw bytes,True
+canonical_protocol_v2,generic,sequence,8,actual versioned binary codec; hashes/signatures retained as raw bytes,True
+canonical_protocol_v2,generic,payload_commitment,32,actual versioned binary codec; hashes/signatures retained as raw bytes,True
+canonical_protocol_v2,generic,redundant_leaf,32,actual versioned binary codec; hashes/signatures retained as raw bytes,True
+canonical_protocol_v2,generic,origin_signature,64,actual versioned binary codec; hashes/signatures retained as raw bytes,True
+canonical_protocol_v2,request,frame,11,actual versioned binary codec; hashes/signatures retained as raw bytes,True
+canonical_protocol_v2,request,request_id,16,actual versioned binary codec; hashes/signatures retained as raw bytes,True
+canonical_protocol_v2,request,tenant_id,16,actual versioned binary codec; hashes/signatures retained as raw bytes,True
+canonical_protocol_v2,request,event_id,16,actual versioned binary codec; hashes/signatures retained as raw bytes,True
+canonical_protocol_v2,request,origin_leaf,32,actual versioned binary codec; hashes/signatures retained as raw bytes,True
+canonical_protocol_v2,request,resource_id,16,actual versioned binary codec; hashes/signatures retained as raw bytes,True
+canonical_protocol_v2,request,policy_id,16,actual versioned binary codec; hashes/signatures retained as raw bytes,True
+canonical_protocol_v2,request,authority_id,16,actual versioned binary codec; hashes/signatures retained as raw bytes,True
+canonical_protocol_v2,request,custodian_count,2,actual versioned binary codec; hashes/signatures retained as raw bytes,True
+canonical_protocol_v2,request,custodians_two,32,actual versioned binary codec; hashes/signatures retained as raw bytes,True
+canonical_protocol_v2,request,scope,4,actual versioned binary codec; hashes/signatures retained as raw bytes,True
+canonical_protocol_v2,request,requested_at_ms,8,actual versioned binary codec; hashes/signatures retained as raw bytes,True
+canonical_protocol_v2,request,expires_at_ms,8,actual versioned binary codec; hashes/signatures retained as raw bytes,True
+canonical_protocol_v2,request,version,4,actual versioned binary codec; hashes/signatures retained as raw bytes,True
+canonical_protocol_v2,request,signature,64,actual versioned binary codec; hashes/signatures retained as raw bytes,True
+canonical_protocol_v2,tombstone,frame,11,actual versioned binary codec; hashes/signatures retained as raw bytes,True
+canonical_protocol_v2,tombstone,tenant_id,16,actual versioned binary codec; hashes/signatures retained as raw bytes,True
+canonical_protocol_v2,tombstone,event_id,16,actual versioned binary codec; hashes/signatures retained as raw bytes,True
+canonical_protocol_v2,tombstone,origin_leaf,32,actual versioned binary codec; hashes/signatures retained as raw bytes,True
+canonical_protocol_v2,tombstone,request_id,16,actual versioned binary codec; hashes/signatures retained as raw bytes,True
+canonical_protocol_v2,tombstone,custodian_id,16,actual versioned binary codec; hashes/signatures retained as raw bytes,True
+canonical_protocol_v2,tombstone,resource_id,16,actual versioned binary codec; hashes/signatures retained as raw bytes,True
+canonical_protocol_v2,tombstone,scope,4,actual versioned binary codec; hashes/signatures retained as raw bytes,True
+canonical_protocol_v2,tombstone,erased_at_ms,8,actual versioned binary codec; hashes/signatures retained as raw bytes,True
+canonical_protocol_v2,tombstone,version,4,actual versioned binary codec; hashes/signatures retained as raw bytes,True
+canonical_protocol_v2,tombstone,signature,64,actual versioned binary codec; hashes/signatures retained as raw bytes,True
+canonical_protocol_v2,receipt,frame,11,actual versioned binary codec; hashes/signatures retained as raw bytes,True
+canonical_protocol_v2,receipt,auditor_id,16,actual versioned binary codec; hashes/signatures retained as raw bytes,True
+canonical_protocol_v2,receipt,event_id,16,actual versioned binary codec; hashes/signatures retained as raw bytes,True
+canonical_protocol_v2,receipt,request_id,16,actual versioned binary codec; hashes/signatures retained as raw bytes,True
+canonical_protocol_v2,receipt,declaration_identity,32,actual versioned binary codec; hashes/signatures retained as raw bytes,True
+canonical_protocol_v2,receipt,witness_digest,32,actual versioned binary codec; hashes/signatures retained as raw bytes,True
+canonical_protocol_v2,receipt,inspected_at_ms,8,actual versioned binary codec; hashes/signatures retained as raw bytes,True
+canonical_protocol_v2,receipt,outcome,1,actual versioned binary codec; hashes/signatures retained as raw bytes,True
+canonical_protocol_v2,receipt,signature,64,actual versioned binary codec; hashes/signatures retained as raw bytes,True
+canonical_protocol_v2,anchor,certificate_frame,11,actual versioned binary codec; hashes/signatures retained as raw bytes,True
+canonical_protocol_v2,anchor,anchor_frame,11,actual versioned binary codec; hashes/signatures retained as raw bytes,True
+canonical_protocol_v2,anchor,ledger_id,16,actual versioned binary codec; hashes/signatures retained as raw bytes,True
+canonical_protocol_v2,anchor,batch_id,16,actual versioned binary codec; hashes/signatures retained as raw bytes,True
+canonical_protocol_v2,anchor,root,32,actual versioned binary codec; hashes/signatures retained as raw bytes,True
+canonical_protocol_v2,anchor,leaf_count,4,actual versioned binary codec; hashes/signatures retained as raw bytes,True
+canonical_protocol_v2,anchor,created_at_ms,8,actual versioned binary codec; hashes/signatures retained as raw bytes,True
+canonical_protocol_v2,anchor,height,8,actual versioned binary codec; hashes/signatures retained as raw bytes,True
+canonical_protocol_v2,anchor,previous_digest,32,actual versioned binary codec; hashes/signatures retained as raw bytes,True
+canonical_protocol_v2,anchor,signer_id,16,actual versioned binary codec; hashes/signatures retained as raw bytes,True
+canonical_protocol_v2,anchor,anchor_signature,64,actual versioned binary codec; hashes/signatures retained as raw bytes,True
+canonical_protocol_v2,anchor,vote_count,2,actual versioned binary codec; hashes/signatures retained as raw bytes,True
+canonical_protocol_v2,anchor,quorum_three_validator_ids,48,actual versioned binary codec; hashes/signatures retained as raw bytes,True
+canonical_protocol_v2,anchor,quorum_three_signatures,192,actual versioned binary codec; hashes/signatures retained as raw bytes,True

@@ -1,0 +1,4 @@
+identifier_policy,pairs,true_same_principal_pairs,equality_linkage_true_positive_rate,equality_linkage_false_positive_rate,adversary,anonymity_or_legal_compliance_established
+stable_global,10000,4948,1.0,0.0,identifier equality only; no key or mapping access; timing/frequency/auxiliary inference excluded,False
+custodian_scoped,10000,4948,0.24595796281325788,0.0,identifier equality only; no key or mapping access; timing/frequency/auxiliary inference excluded,False
+custodian_epoch_scoped,10000,4948,0.03112368633791431,0.0,identifier equality only; no key or mapping access; timing/frequency/auxiliary inference excluded,False

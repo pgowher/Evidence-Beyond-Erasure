@@ -1,0 +1,2 @@
+packages_sampled,local_reference_packages_created,anchor_count,median_portable_witness_json_bytes,median_cold_verify_us,p99_cold_verify_us,median_warm_verify_us,p99_warm_verify_us,cold_definition,anchor_backend,scope
+128,4096,10,4942.0,2759.6345,4026.744690000001,558.203,777.1060200000001,clear immutable signature-result cache; decode and check complete witness,local SQLite append-only log with in-process 3-of-4 prepare/commit certificates,measured local reference execution; consensus network throughput unmeasured

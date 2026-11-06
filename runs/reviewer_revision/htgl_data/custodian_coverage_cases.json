@@ -1,0 +1,29 @@
+{
+  "complete": {
+    "accepted": true,
+    "reason": "DECLARED_CUSTODIAN_COVERAGE",
+    "complete": true,
+    "expected_custodians": 2,
+    "covered_custodians": 2,
+    "missing_custodians": [],
+    "physical_deletion_established": false,
+    "undisclosed_custodians_covered": false
+  },
+  "partial": {
+    "accepted": true,
+    "reason": "DECLARED_CUSTODIAN_COVERAGE",
+    "complete": false,
+    "expected_custodians": 2,
+    "covered_custodians": 1,
+    "missing_custodians": [
+      "8399e221388d0c92f32034b81450797f"
+    ],
+    "physical_deletion_established": false,
+    "undisclosed_custodians_covered": false
+  },
+  "duplicate": {
+    "accepted": false,
+    "reason": "DUPLICATE_CUSTODIAN_RESPONSE",
+    "complete": false
+  }
+}

@@ -1,0 +1,10 @@
+field,representation,linkability,personal_data_possibility,access_model,retention_policy
+event_id,128-bit opaque reference,stable within declared event,may identify a person via mapping,authorized evidence reader,audit horizon
+tenant_id,128-bit opaque reference,stable organization/tenant,may be personal for sole traders,authorized evidence reader,audit horizon
+actors,ordered 128-bit references,stable within selected identifier domain,may be stable personal/pseudonymous identifiers,role-limited resolver,audit horizon
+resource_id,128-bit opaque reference,stable target resource,meter/resource can link to household,role-limited resolver,audit horizon
+policy_id,128-bit opaque reference,stable policy version,auxiliary join possible,authorized evidence reader,policy/audit horizon
+timestamp_ms,uint64 UTC milliseconds,time/frequency correlation remains,behavioral inference possible,authorized evidence reader,audit horizon
+sequence,uint64,batch/event ordering,ordering correlation remains,authorized evidence reader,audit horizon
+commitment,SHA-256 digest with secret 256-bit opening,binding to origin; secrecy assumption separate,not automatically anonymous,authorized evidence reader,audit horizon
+scope,uint32 application-defined bitmask,matches signed authorized request,scope/context may be revealing,authorized evidence reader,request/declaration horizon

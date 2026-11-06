@@ -1,0 +1,8 @@
+batch_size,tree_height_upper_bound,merkle_membership_bytes,encoded_membership_bytes,post_erasure_proof_package_bytes,size_interpretation,erased_payload_bytes_required_by_verifier
+1,0,0,37,708,legacy one-origin core-witness envelope; worked_witness.json measures full authorized-request v2 package,0
+10,4,128,165,836,legacy one-origin core-witness envelope; worked_witness.json measures full authorized-request v2 package,0
+100,7,224,261,932,legacy one-origin core-witness envelope; worked_witness.json measures full authorized-request v2 package,0
+500,9,288,325,996,legacy one-origin core-witness envelope; worked_witness.json measures full authorized-request v2 package,0
+1000,10,320,357,1028,legacy one-origin core-witness envelope; worked_witness.json measures full authorized-request v2 package,0
+5000,13,416,453,1124,legacy one-origin core-witness envelope; worked_witness.json measures full authorized-request v2 package,0
+10000,14,448,485,1156,legacy one-origin core-witness envelope; worked_witness.json measures full authorized-request v2 package,0

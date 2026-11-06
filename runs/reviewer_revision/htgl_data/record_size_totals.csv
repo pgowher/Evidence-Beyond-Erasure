@@ -1,0 +1,11 @@
+profile,record,bytes,classification
+paper_reference_envelope,generic,296,legacy assumed sizing envelope; not measured protocol-v2 serialization
+paper_reference_envelope,request,296,legacy assumed sizing envelope; not measured protocol-v2 serialization
+paper_reference_envelope,tombstone,204,legacy assumed sizing envelope; not measured protocol-v2 serialization
+paper_reference_envelope,receipt,170,legacy assumed sizing envelope; not measured protocol-v2 serialization
+paper_reference_envelope,anchor,208,legacy assumed sizing envelope; not measured protocol-v2 serialization
+canonical_protocol_v2,generic,255,"actual binary codec lengths; two actors, two declared custodians, quorum=3; no storage-engine amplification"
+canonical_protocol_v2,request,261,"actual binary codec lengths; two actors, two declared custodians, quorum=3; no storage-engine amplification"
+canonical_protocol_v2,tombstone,203,"actual binary codec lengths; two actors, two declared custodians, quorum=3; no storage-engine amplification"
+canonical_protocol_v2,receipt,196,"actual binary codec lengths; two actors, two declared custodians, quorum=3; no storage-engine amplification"
+canonical_protocol_v2,anchor,460,"actual binary codec lengths; two actors, two declared custodians, quorum=3; no storage-engine amplification"
